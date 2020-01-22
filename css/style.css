@@ -15,16 +15,95 @@
 }
 
 .container-block {
-    width: 70%;
-    height: 300px;
-    max-width: 1200px;
+    width: 80%;
+
+    max-width: 1400px;
     margin: 0 auto;
 
 }
 
-header {
-    height: 70px;
-    background-color: green;
+nav {
+    font-size: 10px;
+}
+
+.logo {
+    vertical-align: middle;
+    margin: 10px 10px;
+    height: 30px;
+    float: left;
+
+
+}
+
+.left-menu {
+    display: inline-block;
+    padding-top: 30px;
+    float: left;
+
+}
+
+ul {
+    display: inline-block;
+    text-transform: uppercase;
+
+}
+
+ul li {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.right-menu {
+    display: inline-block;
+    float:right;
+    padding-top: 20px;
+
+}
+
+.right-menu a {
+    color: gray;
+    text-transform: uppercase;
+}
+
+.login-button {
+    border: 1px solid #346992;
+    background-color: inherit;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0 5px;
+    text-transform: uppercase;
+}
+
+.green-button {
+    border: none;
+    color: white;
+    background-color: #7fb802;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.header-text {
+    max-width: 50%;
+    padding-top: 100px;
+    padding-right: 50px;
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+}
+
+.header-text-button {
+    color: white;
+    background-color: #7fb802;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 10px 15px;
 }
 
 .container-middle {
@@ -37,6 +116,11 @@ header {
 }
 
 .container-bottom {
-    background-color: green;
+    background-color: white;
+
+}
+
+.bottom-content {
     height: 400px;
+    background-color: green;
 }
