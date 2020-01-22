@@ -9,3 +9,34 @@
     display: table;
     clear: both;
 }
+
+.container-top {
+    background-color: #0d325a;
+}
+
+.container-block {
+    width: 70%;
+    height: 300px;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+header {
+    height: 70px;
+    background-color: green;
+}
+
+.container-middle {
+    background-color: lightgray;
+}
+
+.middle-content {
+    height: 300px;
+    background-color: purple;
+}
+
+.container-bottom {
+    background-color: green;
+    height: 400px;
+}
