@@ -127,11 +127,7 @@ ul li a {
 
 .container-bottom {
     background-color: white;
-
-}
-
-.bottom-content {
-    height: 400px;
+    padding-bottom: 50px;
 
 }
 
@@ -139,6 +135,41 @@ ul li a {
     width: 33.33333%;
     height: 100%;
     float:left;
-    background-color: yellow;
-    border: 1px solid black;
+    position: relative;
+}
+
+.icon {
+    padding: 30px;
+}
+
+.icon img {
+    vertical-align: middle;
+    display: block;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.text-block {
+    text-align: center;
+}
+
+.text-block hr {
+
+    width: 45px;
+    border-top: 2px solid gray;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.text-block h3 {
+    text-align: center;
+    color: green;
+    padding-bottom: 10px;
+    font-size: 23px;
+}
+
+.text-block p {
+    padding-top: 10px;
+    color: gray;
+    font-size: 18px;
 }
