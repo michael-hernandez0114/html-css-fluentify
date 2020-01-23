@@ -11,6 +11,10 @@
 }
 
 .container-top {
+    overflow-x: hidden;
+}
+
+.container-top {
     background-color: #0d325a;
     padding-bottom: 100px;
 }
@@ -23,27 +27,43 @@
 }
 
 header {
-    position: relative;
+    height: 70px;
+    padding: 10px;
+    line-height: 50px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 nav {
-    font-size: 10px;
-}
-
-.logo {
-    vertical-align: middle;
-    margin: 10px 10px;
-    height: 30px;
+    line-height: 50px;
     float: left;
 }
 
+.logo {
+    /*
+    vertical-align: middle;
+    margin: 10px 10px;
+    height: 30px;
+    */
+    float: left;
+}
+/*
 .left-menu {
     display: inline-block;
     padding-top: 30px;
     float: left;
 
 }
+*/
 
+nav li {
+    float: left;
+    margin: 0 5px;
+    list-style: none;
+    font-size: 11px;
+}
+/*
 ul {
     display: inline-block;
     text-transform: uppercase;
@@ -59,12 +79,15 @@ ul li a {
     text-decoration: none;
     color: white;
 }
+*/
 
+header a, header button {
+    font-size: 11px;
+    color: white;
+    text-decoration: none;
+}
 .right-menu {
-    display: inline-block;
     float:right;
-    padding-top: 20px;
-
 }
 
 .right-menu a {
@@ -91,16 +114,30 @@ ul li a {
     text-transform: uppercase;
 }
 
-.header-text {
-    max-width: 50%;
+.splash-zone {
+    /*max-width: 50%;
     padding-top: 100px;
     padding-right: 50px;
     font-size: 40px;
     font-weight: 500;
-    color: white;
+    color: white;*/
+    height: 200px;
+    position: relative;
 }
 
-.header-text-button {
+.splash-zone .text {
+    width: 50%;
+    position: absolute;
+    top:50%;
+    transform: translateY(50%);
+}
+
+.text h1 {
+    color:white;
+    margin-bottom: 20px;
+}
+
+.splash-zone-button {
     color: white;
     background-color: #7fb802;
     border-radius: 5px;
@@ -108,12 +145,14 @@ ul li a {
     padding: 10px 15px;
 }
 
-.oldman-logo img {
-    height: 300px;
+#oldman-logo {
+    width: 700px;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(10%,-19%);
+    transform: scale(0.5);
+    right: 0;
+    bottom: 0;
+    transform: translate(45%,35%);
+
 }
 
 .container-middle {
